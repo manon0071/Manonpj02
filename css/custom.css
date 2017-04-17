@@ -1,0 +1,150 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.pad{
+	padding: 8px 0;
+}
+.top-header{
+	background-color: #222;
+}
+
+.contact-box{
+	float: left;
+	width: 50%;
+}
+.contact-box p{
+	color: #d08313;
+	margin:0;
+	display: block;
+}
+.social-box{
+	float: left;
+	width: 50%;
+}
+.social-box ul {
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.social-box ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.social-box ul li a {
+padding: 0 5px;
+color: #797948;
+display: block;
+}
+.logo{
+	width: 20%;
+	float:left;
+}
+.menu{
+	width: 80%;
+	float: left;
+
+}
+.logo img{
+	width: 100px;
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	border-right: 5px solid rgb(226, 226, 226)
+}
+
+.menu ul li a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	color: #222;
+}
+
+.menu ul li a:hover {
+	color: #orange;
+	background-color: rgb(226, 226, 226);
+	transition: all 0.5s ease-in-out;
+	-webkit-transition:.5s ease-in-out;
+	-moz-transition:.5s ease-in-out;
+}
+.menu ul li a:focus {
+  color: rgb(226, 226, 226);
+}
+.button{
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.menu ul li: nth-child(4) {
+	border-right: 0 solid rgb(226, 226, 226)
+}
+.menu ul li:last-child {
+	border-right: 0 solid rgb (226, 226, 226);
+}
+.bg{
+	background-image: url(../image/transparent1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.business-content{
+	width: 50%;
+	float: left;
+	padding: 100px 0;
+}
+
+.business-content h1{
+font-size: 40px;
+text-transform: uppercase;
+color: #1b2823;
+}
+.business-content h1 span{
+	color: yellow;
+}
+.business-content p {25px;}
+.busines-content{
+	max-width: 100%;
+	width: 200px;
+}
+.SignUp-form{
+	width: 50%;
+	float: left;
+	padding: 110px 0;
+}
+.SignUp-form .form{
+	background: #EEE;
+	padding: 40px 50px;
+	margin: 20px 28px;
+}
+.form input{
+	width: 95%;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #222;
+}
+.form .button {
+	width: auto;
+	background: #EEE;
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+.form h1{
+	text-align: center;
+}
